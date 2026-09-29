@@ -1,0 +1,602 @@
+[
+  {
+    "course_code": "24BM11RC01",
+    "course_title": "Calculus and Differential Equations",
+    "semester": "I Year - I Semester",
+    "category": "BS",
+    "category_name": "Basic Sciences",
+    "file_path": "I_Year_I_Semester/24BM11RC01_Calculus_and_Differential_Equations.pdf"
+  },
+  {
+    "course_code": "24BC11RC01",
+    "course_title": "Green Chemistry",
+    "semester": "I Year - I Semester",
+    "category": "BS",
+    "category_name": "Basic Sciences",
+    "file_path": "I_Year_I_Semester/24BC11RC01_Green_Chemistry.pdf"
+  },
+  {
+    "course_code": "24HE11RC01",
+    "course_title": "English",
+    "semester": "I Year - I Semester",
+    "category": "HSS",
+    "category_name": "Humanities & Social Sciences",
+    "file_path": "I_Year_I_Semester/24HE11RC01_English.pdf"
+  },
+  {
+    "course_code": "24CT11RC01",
+    "course_title": "Fundamentals of Computers",
+    "semester": "I Year - I Semester",
+    "category": "ES",
+    "category_name": "Engineering Science",
+    "file_path": "I_Year_I_Semester/24CT11RC01_Fundamentals_of_Computers.pdf"
+  },
+  {
+    "course_code": "24CT11RC02",
+    "course_title": "Problem Solving using C",
+    "semester": "I Year - I Semester",
+    "category": "ES",
+    "category_name": "Engineering Science",
+    "file_path": "I_Year_I_Semester/24CT11RC02_Problem_Solving_using_C.pdf"
+  },
+  {
+    "course_code": "24HE11RC02",
+    "course_title": "Communication Skills Lab",
+    "semester": "I Year - I Semester",
+    "category": "HSS",
+    "category_name": "Humanities & Social Sciences",
+    "file_path": "I_Year_I_Semester/24HE11RC02_Communication_Skills_Lab.pdf"
+  },
+  {
+    "course_code": "24CT11RC03",
+    "course_title": "Computer Engineering Workshop",
+    "semester": "I Year - I Semester",
+    "category": "ES",
+    "category_name": "Engineering Science",
+    "file_path": "I_Year_I_Semester/24CT11RC03_Computer_Engineering_Workshop.pdf"
+  },
+  {
+    "course_code": "24CT11RC04",
+    "course_title": "Problem Solving using C Lab",
+    "semester": "I Year - I Semester",
+    "category": "ES",
+    "category_name": "Engineering Science",
+    "file_path": "I_Year_I_Semester/24CT11RC04_Problem_Solving_using_C_Lab.pdf"
+  },
+  {
+    "course_code": "24BM11RC02",
+    "course_title": "Linear Algebra and Vector Calculus",
+    "semester": "I Year - II Semester",
+    "category": "BS",
+    "category_name": "Basic Sciences",
+    "file_path": "I_Year_II_Semester/24BM11RC02_Linear_Algebra_and_Vector_Calculus.pdf"
+  },
+  {
+    "course_code": "24BP11RC01",
+    "course_title": "Engineering Physics",
+    "semester": "I Year - II Semester",
+    "category": "BS",
+    "category_name": "Basic Sciences",
+    "file_path": "I_Year_II_Semester/24BP11RC01_Engineering_Physics.pdf"
+  },
+  {
+    "course_code": "24EC11RC05",
+    "course_title": "Digital Logic Design",
+    "semester": "I Year - II Semester",
+    "category": "ES",
+    "category_name": "Engineering Science",
+    "file_path": "I_Year_II_Semester/24EC11RC05_Digital_Logic_Design.pdf"
+  },
+  {
+    "course_code": "24EC11RC04",
+    "course_title": "Elements of Electronics Engineering",
+    "semester": "I Year - II Semester",
+    "category": "ES",
+    "category_name": "Engineering Science",
+    "file_path": "I_Year_II_Semester/24EC11RC04_Elements_of_Electronics_Engineering.pdf"
+  },
+  {
+    "course_code": "24CT11RC06",
+    "course_title": "Python Programming",
+    "semester": "I Year - II Semester",
+    "category": "ES",
+    "category_name": "Engineering Science",
+    "file_path": "I_Year_II_Semester/24CT11RC06_Python_Programming.pdf"
+  },
+  {
+    "course_code": "24BP11RC02",
+    "course_title": "Engineering Physics Lab",
+    "semester": "I Year - II Semester",
+    "category": "BS",
+    "category_name": "Basic Sciences",
+    "file_path": "I_Year_II_Semester/24BP11RC02_Engineering_Physics_Lab.pdf"
+  },
+  {
+    "course_code": "24CT11RC07",
+    "course_title": "Python Programming Lab",
+    "semester": "I Year - II Semester",
+    "category": "ES",
+    "category_name": "Engineering Science",
+    "file_path": "I_Year_II_Semester/24CT11RC07_Python_Programming_Lab.pdf"
+  },
+  {
+    "course_code": "24CT11RC08",
+    "course_title": "Web Technologies Fundamentals Lab",
+    "semester": "I Year - II Semester",
+    "category": "ES",
+    "category_name": "Engineering Science",
+    "file_path": "I_Year_II_Semester/24CT11RC08_Web_Technologies_Fundamentals_Lab.pdf"
+  },
+  {
+    "course_code": "24BM11RC05",
+    "course_title": "Discrete Mathematical Structures",
+    "semester": "II Year - I Semester",
+    "category": "ES",
+    "category_name": "Engineering Science",
+    "file_path": "II_Year_I_Semester/24BM11RC05_Discrete_Mathematical_Structures.pdf"
+  },
+  {
+    "course_code": "24CT11RC11",
+    "course_title": "Computer Organization",
+    "semester": "II Year - I Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "II_Year_I_Semester/24CT11RC11_Computer_Organization.pdf"
+  },
+  {
+    "course_code": "24CT11RC09",
+    "course_title": "Data Structures",
+    "semester": "II Year - I Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "II_Year_I_Semester/24CT11RC09_Data_Structures.pdf"
+  },
+  {
+    "course_code": "24CT11RC10",
+    "course_title": "Object Oriented Programming Through Java",
+    "semester": "II Year - I Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "II_Year_I_Semester/24CT11RC10_Object_Oriented_Programming_Through_Java.pdf"
+  },
+  {
+    "course_code": "24CT11RC13",
+    "course_title": "Operating Systems",
+    "semester": "II Year - I Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "II_Year_I_Semester/24CT11RC13_Operating_Systems.pdf"
+  },
+  {
+    "course_code": "24CT11RC14",
+    "course_title": "Data Structures Lab",
+    "semester": "II Year - I Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "II_Year_I_Semester/24CT11RC14_Data_Structures_Lab.pdf"
+  },
+  {
+    "course_code": "24CT11RC15",
+    "course_title": "Object Oriented Programming Through Java Lab",
+    "semester": "II Year - I Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "II_Year_I_Semester/24CT11RC15_Object_Oriented_Programming_Through_Java_Lab.pdf"
+  },
+  {
+    "course_code": "24CT11RC17",
+    "course_title": "Operating Systems Lab",
+    "semester": "II Year - I Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "II_Year_I_Semester/24CT11RC17_Operating_Systems_Lab.pdf"
+  },
+  {
+    "course_code": "24CS11SC01",
+    "course_title": "Skill Course-I: Advanced Python Programming",
+    "semester": "II Year - I Semester",
+    "category": "SC",
+    "category_name": "Skill Course",
+    "file_path": "II_Year_I_Semester/24CS11SC01_Skill_Course_1_Advanced_Python_Programming.pdf"
+  },
+  {
+    "course_code": "24BC11MC01",
+    "course_title": "Environment Science",
+    "semester": "II Year - I Semester",
+    "category": "MC",
+    "category_name": "Mandatory Course",
+    "file_path": "II_Year_I_Semester/24BC11MC01_Environment_Science.pdf"
+  },
+  {
+    "course_code": "24BM11RC06",
+    "course_title": "Probability and Statistics",
+    "semester": "II Year - II Semester",
+    "category": "BS",
+    "category_name": "Basic Sciences",
+    "file_path": "II_Year_II_Semester/24BM11RC06_Probability_and_Statistics.pdf"
+  },
+  {
+    "course_code": "24HM11RC01",
+    "course_title": "Managerial Economics",
+    "semester": "II Year - II Semester",
+    "category": "HSS",
+    "category_name": "Humanities & Social Sciences",
+    "file_path": "II_Year_II_Semester/24HM11RC01_Managerial_Economics.pdf"
+  },
+  {
+    "course_code": "24CT11RC18",
+    "course_title": "Design and Analysis of Algorithms",
+    "semester": "II Year - II Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "II_Year_II_Semester/24CT11RC18_Design_and_Analysis_of_Algorithms.pdf"
+  },
+  {
+    "course_code": "24CT11RC12",
+    "course_title": "Database Management Systems",
+    "semester": "II Year - II Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "II_Year_II_Semester/24CT11RC12_Database_Management_Systems.pdf"
+  },
+  {
+    "course_code": "24CT11RC20",
+    "course_title": "Formal Languages and Automata Theory",
+    "semester": "II Year - II Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "II_Year_II_Semester/24CT11RC20_Formal_Languages_and_Automata_Theory.pdf"
+  },
+  {
+    "course_code": "24CT11RC21",
+    "course_title": "Algorithms Lab Through C++",
+    "semester": "II Year - II Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "II_Year_II_Semester/24CT11RC21_Algorithms_Lab_Through_C.pdf"
+  },
+  {
+    "course_code": "24CT11RC16",
+    "course_title": "Database Management Systems Lab",
+    "semester": "II Year - II Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "II_Year_II_Semester/24CT11RC16_Database_Management_Systems_Lab.pdf"
+  },
+  {
+    "course_code": "24CT11SC02",
+    "course_title": "Skill Course II: MERN Stack Development",
+    "semester": "II Year - II Semester",
+    "category": "SC",
+    "category_name": "Skill Course",
+    "file_path": "II_Year_II_Semester/24CT11SC02_Skill_Course_II_MERN_Stack_Development.pdf"
+  },
+  {
+    "course_code": "24HM11MC01",
+    "course_title": "Professional Ethics and Human Values",
+    "semester": "II Year - II Semester",
+    "category": "MC",
+    "category_name": "Mandatory Course",
+    "file_path": "II_Year_II_Semester/24HM11MC01_Professional_Ethics_and_Human_Values.pdf"
+  },
+  {
+    "course_code": "24CS11SW01",
+    "course_title": "Social Activity/Life Skills",
+    "semester": "II Year - II Semester",
+    "category": "",
+    "category_name": "",
+    "file_path": ""
+  },
+  {
+    "course_code": "24CT11RC22",
+    "course_title": "Computer Networks",
+    "semester": "III Year - I Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "III_Year_I_Semester/24CT11RC22_Computer_Networks.pdf"
+  },
+  {
+    "course_code": "24CT11RC19",
+    "course_title": "Data Warehousing and Data Mining",
+    "semester": "III Year - I Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "III_Year_I_Semester/24CT11RC19_Data_Warehousing_and_Data_Mining.pdf"
+  },
+  {
+    "course_code": "24CS11RC01",
+    "course_title": "Compiler Design",
+    "semester": "III Year - I Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "III_Year_I_Semester/24CS11RC01_Compiler_Design.pdf"
+  },
+  {
+    "course_code": "24CT11RC24",
+    "course_title": "Computer Networks Lab",
+    "semester": "III Year - I Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "III_Year_I_Semester/24CT11RC24_Computer_Networks_Lab.pdf"
+  },
+  {
+    "course_code": "24CI11RC01",
+    "course_title": "Data Mining Lab",
+    "semester": "III Year - I Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "III_Year_I_Semester/24CI11RC01_Data_Mining_Lab.pdf"
+  },
+  {
+    "course_code": "24CT11SC01",
+    "course_title": "Skill Course III: Continuous Integration and Continuous Delivery using DevOps",
+    "semester": "III Year - I Semester",
+    "category": "SC",
+    "category_name": "Skill Course",
+    "file_path": "III_Year_I_Semester/24CT11SC01_Skill_Course_III_Continuous_Integration_and_Continuous_Delivery_using_DevOps.pdf"
+  },
+  {
+    "course_code": "24EC11SC02",
+    "course_title": "Skill Course III: IoT Applications",
+    "semester": "III Year - I Semester",
+    "category": "",
+    "category_name": "",
+    "file_path": "III_Year_I_Semester/24EC11SC02_Skill_Course_III_IoT_Applications.pdf"
+  },
+  {
+    "course_code": "24CS11MC01",
+    "course_title": "Design Thinking, Innovation and Entrepreneurship",
+    "semester": "III Year - I Semester",
+    "category": "MC",
+    "category_name": "Mandatory Course",
+    "file_path": "III_Year_I_Semester/24CS11MC01_Design_Thinking_Innovation_and_Entrepreneurship.pdf"
+  },
+  {
+    "course_code": "24CT11RC23",
+    "course_title": "Machine Learning",
+    "semester": "III Year - II Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "III_Year_II_Semester/24CT11RC23_Machine_Learning.pdf"
+  },
+  {
+    "course_code": "24CI11RC02",
+    "course_title": "Cryptography and Network Security",
+    "semester": "III Year - II Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "III_Year_II_Semester/24CI11RC02_Cryptography_and_Network_Security.pdf"
+  },
+  {
+    "course_code": "24CI11RC03",
+    "course_title": "Object Oriented Software Engineering",
+    "semester": "III Year - II Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "III_Year_II_Semester/24CI11RC03_Object_Oriented_Software_Engineering.pdf"
+  },
+  {
+    "course_code": "24CT11RC25",
+    "course_title": "Machine Learning Lab",
+    "semester": "III Year - II Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "III_Year_II_Semester/24CT11RC25_Machine_Learning_Lab.pdf"
+  },
+  {
+    "course_code": "24CI11RC04",
+    "course_title": "Cryptography and Network Security Lab",
+    "semester": "III Year - II Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "III_Year_II_Semester/24CI11RC04_Cryptography_and_Network_Security_Lab.pdf"
+  },
+  {
+    "course_code": "24CI11RC05",
+    "course_title": "Object Oriented Software Engineering Lab",
+    "semester": "III Year - II Semester",
+    "category": "PC",
+    "category_name": "Professional Core",
+    "file_path": "III_Year_II_Semester/24CI11RC05_Object_Oriented_Software_Engineering_Lab.pdf"
+  },
+  {
+    "course_code": "24HE11SC01",
+    "course_title": "Skill Course IV: Soft Skills",
+    "semester": "III Year - II Semester",
+    "category": "SC",
+    "category_name": "Skill Course",
+    "file_path": "III_Year_II_Semester/24HE11SC01_Skill_Course_IV_Soft_Skills.pdf"
+  },
+  {
+    "course_code": "24HM11MC02",
+    "course_title": "IPR & Patents",
+    "semester": "III Year - II Semester",
+    "category": "MC",
+    "category_name": "Mandatory Course",
+    "file_path": "III_Year_II_Semester/24HM11MC02_IPR_Patents.pdf"
+  },
+  {
+    "course_code": "Varies",
+    "course_title": "Professional Elective-II (PE-2): MOOCs Course",
+    "semester": "III Year - II Semester",
+    "category": "PE",
+    "category_name": "Professional Elective",
+    "file_path": ""
+  },
+  {
+    "course_code": "Varies",
+    "course_title": "Open Elective-II (OE-2)",
+    "semester": "III Year - II Semester",
+    "category": "OE",
+    "category_name": "Open Elective",
+    "file_path": ""
+  },
+  {
+    "course_code": "24CS11SC03",
+    "course_title": "Skill Course V: Big Data Analytics with PySpark",
+    "semester": "IV Year - I Semester",
+    "category": "SC",
+    "category_name": "Skill Course",
+    "file_path": "IV_Year_I_Semester/24CS11SC03_Skill_Course_V_Big_Data_Analytics_with_PySpark.pdf"
+  },
+  {
+    "course_code": "24CI11SC01",
+    "course_title": "Skill Course V: Deep Learning Essentials With Python",
+    "semester": "IV Year - I Semester",
+    "category": "",
+    "category_name": "",
+    "file_path": "IV_Year_I_Semester/24CI11SC01_Skill_Course_V_Deep_Learning_Essentials_With_Python.pdf"
+  },
+  {
+    "course_code": "24CT11PE01",
+    "course_title": "API and Micro Services",
+    "semester": "Professional Electives",
+    "category": "PE",
+    "category_name": "Professional Elective",
+    "file_path": "Professional_Electives/24CT11PE01_API_and_Micro_Services.pdf"
+  },
+  {
+    "course_code": "24CS11PE01",
+    "course_title": "Artificial Intelligence Techniques",
+    "semester": "Professional Electives",
+    "category": "PE",
+    "category_name": "Professional Elective",
+    "file_path": "Professional_Electives/24CS11PE01_Artificial_Intelligence_Techniques.pdf"
+  },
+  {
+    "course_code": "24CI11PE01",
+    "course_title": "Blockchain Technologies",
+    "semester": "Professional Electives",
+    "category": "PE",
+    "category_name": "Professional Elective",
+    "file_path": "Professional_Electives/24CI11PE01_Blockchain_Technologies.pdf"
+  },
+  {
+    "course_code": "24CA11PE01",
+    "course_title": "Computer Vision",
+    "semester": "Professional Electives",
+    "category": "PE",
+    "category_name": "Professional Elective",
+    "file_path": "Professional_Electives/24CA11PE01_Computer_Vision.pdf"
+  },
+  {
+    "course_code": "24CA11PE02",
+    "course_title": "Cybersecurity and Digital Forensics",
+    "semester": "Professional Electives",
+    "category": "PE",
+    "category_name": "Professional Elective",
+    "file_path": "Professional_Electives/24CA11PE02_Cybersecurity_and_Digital_Forensics.pdf"
+  },
+  {
+    "course_code": "24CI11PE02",
+    "course_title": "Deep Learning",
+    "semester": "Professional Electives",
+    "category": "PE",
+    "category_name": "Professional Elective",
+    "file_path": "Professional_Electives/24CI11PE02_Deep_Learning.pdf"
+  },
+  {
+    "course_code": "24CI11PE03",
+    "course_title": "Distributed Systems",
+    "semester": "Professional Electives",
+    "category": "PE",
+    "category_name": "Professional Elective",
+    "file_path": "Professional_Electives/24CI11PE03_Distributed_Systems.pdf"
+  },
+  {
+    "course_code": "24CT11PE02",
+    "course_title": "Ethical Hacking",
+    "semester": "Professional Electives",
+    "category": "PE",
+    "category_name": "Professional Elective",
+    "file_path": "Professional_Electives/24CT11PE02_Ethical_Hacking.pdf"
+  },
+  {
+    "course_code": "24CA11PE03",
+    "course_title": "Fog and Edge Computing",
+    "semester": "Professional Electives",
+    "category": "PE",
+    "category_name": "Professional Elective",
+    "file_path": "Professional_Electives/24CA11PE03_Fog_and_Edge_Computing.pdf"
+  },
+  {
+    "course_code": "24CT11PE03",
+    "course_title": "Generative AI Models",
+    "semester": "Professional Electives",
+    "category": "PE",
+    "category_name": "Professional Elective",
+    "file_path": "Professional_Electives/24CT11PE03_Generative_AI_Models.pdf"
+  },
+  {
+    "course_code": "24CI11PE04",
+    "course_title": "Hadoop and Big Data Analytics",
+    "semester": "Professional Electives",
+    "category": "PE",
+    "category_name": "Professional Elective",
+    "file_path": "Professional_Electives/24CI11PE04_Hadoop_and_Big_Data_Analytics.pdf"
+  },
+  {
+    "course_code": "24CS11PE02",
+    "course_title": "Human Computer Interaction",
+    "semester": "Professional Electives",
+    "category": "PE",
+    "category_name": "Professional Elective",
+    "file_path": "Professional_Electives/24CS11PE02_Human_Computer_Interaction.pdf"
+  },
+  {
+    "course_code": "24CS11PE03",
+    "course_title": "Java Spring Framework",
+    "semester": "Professional Electives",
+    "category": "PE",
+    "category_name": "Professional Elective",
+    "file_path": "Professional_Electives/24CS11PE03_Java_Spring_Framework.pdf"
+  },
+  {
+    "course_code": "24CT11PE04",
+    "course_title": "Mobile Application Development",
+    "semester": "Professional Electives",
+    "category": "PE",
+    "category_name": "Professional Elective",
+    "file_path": "Professional_Electives/24CT11PE04_Mobile_Application_Development.pdf"
+  },
+  {
+    "course_code": "24CA11PE04",
+    "course_title": "NoSQL Databases",
+    "semester": "Professional Electives",
+    "category": "PE",
+    "category_name": "Professional Elective",
+    "file_path": "Professional_Electives/24CA11PE04_NoSQL_Databases.pdf"
+  },
+  {
+    "course_code": "24CT11PE05",
+    "course_title": "Soft Computing",
+    "semester": "Professional Electives",
+    "category": "PE",
+    "category_name": "Professional Elective",
+    "file_path": "Professional_Electives/24CT11PE05_Soft_Computing.pdf"
+  },
+  {
+    "course_code": "24CS11EL01",
+    "course_title": "Human Machine Interaction",
+    "semester": "Open Electives",
+    "category": "OE",
+    "category_name": "Open Elective",
+    "file_path": "Open_Electives/24CS11EL01_Human_Machine_Interaction.pdf"
+  },
+  {
+    "course_code": "24CS11EL02",
+    "course_title": "Introduction to Artificial Intelligence",
+    "semester": "Open Electives",
+    "category": "OE",
+    "category_name": "Open Elective",
+    "file_path": "Open_Electives/24CS11EL02_Introduction_to_Artificial_Intelligence.pdf"
+  },
+  {
+    "course_code": "24CS11EL03",
+    "course_title": "Software Project Management",
+    "semester": "Open Electives",
+    "category": "OE",
+    "category_name": "Open Elective",
+    "file_path": "Open_Electives/24CS11EL03_Software_Project_Management.pdf"
+  }
+]

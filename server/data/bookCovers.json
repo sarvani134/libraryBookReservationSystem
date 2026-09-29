@@ -1,0 +1,410 @@
+{
+  "The C Programming Language": {
+    "image": "/covers/6684943.jpg",
+    "source": "https://openlibrary.org/works/OL4617640W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/6684943-L.jpg?default=false",
+    "author": "Brian W. Kernighan & Dennis M. Ritchie"
+  },
+  "Let Us C": {
+    "image": "/covers/let-us-c-publisher.jpg",
+    "source": "https://in.bpbonline.com/products/let-us-c-21st-edition",
+    "sourceImage": "https://in.bpbonline.com/cdn/shop/files/9789365899689.jpg?v=1755604017&width=600",
+    "author": "Yashavant Kanetkar"
+  },
+  "Head First Java": {
+    "image": "/covers/388761.jpg",
+    "source": "https://openlibrary.org/works/OL5756124W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/388761-L.jpg?default=false",
+    "author": "Kathy Sierra, Bert Bates & Trisha Gee"
+  },
+  "Effective Java": {
+    "image": "/covers/1176573.jpg",
+    "source": "https://openlibrary.org/works/OL6223299W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/1176573-L.jpg?default=false",
+    "author": "Joshua Bloch"
+  },
+  "Python Crash Course": {
+    "image": "/covers/8245395.jpg",
+    "source": "https://openlibrary.org/works/OL17920482W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/8245395-L.jpg?default=false",
+    "author": "Eric Matthes"
+  },
+  "Automate the Boring Stuff with Python": {
+    "image": "/covers/7363640.jpg",
+    "source": "https://openlibrary.org/works/OL17192141W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/7363640-L.jpg?default=false",
+    "author": "Al Sweigart"
+  },
+  "Learning Python": {
+    "image": "/covers/1312568.jpg",
+    "source": "https://openlibrary.org/works/OL2784125W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/1312568-L.jpg?default=false",
+    "author": "Mark Lutz"
+  },
+  "Data Structures and Algorithm Analysis in C": {
+    "image": "/covers/193887.jpg",
+    "source": "https://openlibrary.org/works/OL1958940W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/193887-L.jpg?default=false",
+    "author": "Mark Allen Weiss"
+  },
+  "Data Structures and Algorithms in Java": {
+    "image": "/covers/9671168.jpg",
+    "source": "https://openlibrary.org/works/OL5970265W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/9671168-L.jpg?default=false",
+    "author": "Michael T. Goodrich, Roberto Tamassia & Michael H. Goldwasser"
+  },
+  "Introduction to Algorithms": {
+    "image": "/covers/2341462.jpg",
+    "source": "https://openlibrary.org/works/OL4781294W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/2341462-L.jpg?default=false",
+    "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein"
+  },
+  "The Algorithm Design Manual": {
+    "image": "/covers/245565.jpg",
+    "source": "https://openlibrary.org/works/OL2677499W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/245565-L.jpg?default=false",
+    "author": "Steven S. Skiena"
+  },
+  "Algorithms": {
+    "image": "/covers/7992499.jpg",
+    "source": "https://openlibrary.org/works/OL16116506W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/7992499-L.jpg?default=false",
+    "author": "Robert Sedgewick & Kevin Wayne"
+  },
+  "Database System Concepts": {
+    "image": "/covers/54871.jpg",
+    "source": "https://openlibrary.org/works/OL1854539W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/54871-L.jpg?default=false",
+    "author": "Abraham Silberschatz, Henry F. Korth & S. Sudarshan"
+  },
+  "Fundamentals of Database Systems": {
+    "image": "/covers/3943051.jpg",
+    "source": "https://openlibrary.org/works/OL3947220W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/3943051-L.jpg?default=false",
+    "author": "Ramez Elmasri & Shamkant B. Navathe"
+  },
+  "Database Management Systems": {
+    "image": "/covers/63477.jpg",
+    "source": "https://openlibrary.org/works/OL16961668W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/63477-L.jpg?default=false",
+    "author": "Raghu Ramakrishnan & Johannes Gehrke"
+  },
+  "Operating System Concepts": {
+    "image": "/covers/302591.jpg",
+    "source": "https://openlibrary.org/works/OL1854541W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/302591-L.jpg?default=false",
+    "author": "Abraham Silberschatz, Peter B. Galvin & Greg Gagne"
+  },
+  "Modern Operating Systems": {
+    "image": "/covers/9378721.jpg",
+    "source": "https://openlibrary.org/works/OL1970688W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/9378721-L.jpg?default=false",
+    "author": "Andrew S. Tanenbaum & Herbert Bos"
+  },
+  "Computer Networks": {
+    "image": "/covers/9378629.jpg",
+    "source": "https://openlibrary.org/works/OL1970691W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/9378629-L.jpg?default=false",
+    "author": "Andrew S. Tanenbaum & David J. Wetherall"
+  },
+  "Computer Organization and Design": {
+    "image": "/covers/3935962.jpg",
+    "source": "https://openlibrary.org/works/OL2664272W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/3935962-L.jpg?default=false",
+    "author": "David A. Patterson & John L. Hennessy"
+  },
+  "Computer System Architecture": {
+    "image": "/covers/10192526.jpg",
+    "source": "https://openlibrary.org/works/OL11309879W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/10192526-L.jpg?default=false",
+    "author": "M. Morris Mano"
+  },
+  "Computer Organization and Architecture": {
+    "image": "/covers/82725.jpg",
+    "source": "https://openlibrary.org/works/OL1865015W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/82725-L.jpg?default=false",
+    "author": "William Stallings"
+  },
+  "Software Engineering": {
+    "image": "/covers/3973371.jpg",
+    "source": "https://openlibrary.org/works/OL2960016W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/3973371-L.jpg?default=false",
+    "author": "Ian Sommerville"
+  },
+  "Clean Code": {
+    "image": "/covers/8065615.jpg",
+    "source": "https://openlibrary.org/works/OL17618370W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/8065615-L.jpg?default=false",
+    "author": "Robert C. Martin"
+  },
+  "Design Patterns": {
+    "image": "/covers/6601119.jpg",
+    "source": "https://openlibrary.org/works/OL6030812W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/6601119-L.jpg?default=false",
+    "author": "Erich Gamma, Richard Helm, Ralph Johnson & John Vlissides"
+  },
+  "Eloquent JavaScript": {
+    "image": "/covers/7082166.jpg",
+    "source": "https://openlibrary.org/works/OL15444205W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/7082166-L.jpg?default=false",
+    "author": "Marijn Haverbeke"
+  },
+  "Learning Web Design": {
+    "image": "/covers/8686220.jpg",
+    "source": "https://openlibrary.org/works/OL19882567W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/8686220-L.jpg?default=false",
+    "author": "Jennifer Niederst Robbins"
+  },
+  "Artificial Intelligence": {
+    "image": "/covers/55159.jpg",
+    "source": "https://openlibrary.org/works/OL4453349W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/55159-L.jpg?default=false",
+    "author": "Elaine Rich, Kevin Knight & Shivashankar B. Nair"
+  },
+  "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow": {
+    "image": "/covers/9388208.jpg",
+    "source": "https://openlibrary.org/works/OL20709638W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/9388208-L.jpg?default=false",
+    "author": "AurÃ©lien GÃ©ron"
+  },
+  "Pattern Recognition and Machine Learning": {
+    "image": "/covers/9413468.jpg",
+    "source": "https://openlibrary.org/works/OL20728101W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/9413468-L.jpg?default=false",
+    "author": "Christopher M. Bishop"
+  },
+  "Deep Learning": {
+    "image": "/covers/8086288.jpg",
+    "source": "https://openlibrary.org/works/OL17801809W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/8086288-L.jpg?default=false",
+    "author": "Ian Goodfellow, Yoshua Bengio & Aaron Courville"
+  },
+  "Distributed Systems": {
+    "image": "/covers/9378755.jpg",
+    "source": "https://openlibrary.org/works/OL1970672W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/9378755-L.jpg?default=false",
+    "author": "Maarten van Steen & Andrew S. Tanenbaum"
+  },
+  "Computer Security: Principles and Practice": {
+    "image": "/covers/13908067.jpg",
+    "source": "https://openlibrary.org/works/OL21422028W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/13908067-L.jpg?default=false",
+    "author": "William Stallings & Lawrie Brown"
+  },
+  "Security Engineering": {
+    "image": "/covers/4970809.jpg",
+    "source": "https://openlibrary.org/works/OL8229364W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/4970809-L.jpg?default=false",
+    "author": "Ross Anderson"
+  },
+  "Cryptography and Network Security": {
+    "image": "/covers/14561629.jpg",
+    "source": "https://openlibrary.org/works/OL21381347W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/14561629-L.jpg?default=false",
+    "author": "William Stallings"
+  },
+  "Applied Cryptography": {
+    "image": "/covers/3930979.jpg",
+    "source": "https://openlibrary.org/works/OL2905639W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/3930979-L.jpg?default=false",
+    "author": "Bruce Schneier"
+  },
+  "Compilers: Principles, Techniques, and Tools": {
+    "image": "/covers/syllabus-9780321486813.jpg",
+    "source": "https://openlibrary.org/isbn/9780321486813",
+    "sourceImage": "https://covers.openlibrary.org/b/isbn/9780321486813-L.jpg?default=false",
+    "author": "Alfred V. Aho, Monica S. Lam, Ravi Sethi & Jeffrey D. Ullman"
+  },
+  "Engineering a Compiler": {
+    "image": "/covers/784247.jpg",
+    "source": "https://openlibrary.org/works/OL5745913W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/784247-L.jpg?default=false",
+    "author": "Keith D. Cooper & Linda Torczon"
+  },
+  "Introduction to the Theory of Computation": {
+    "image": "/covers/8665615.jpg",
+    "source": "https://openlibrary.org/works/OL19859284W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/8665615-L.jpg?default=false",
+    "author": "Michael Sipser"
+  },
+  "Introduction to Automata Theory, Languages, and Computation": {
+    "image": "/covers/134856.jpg",
+    "source": "https://openlibrary.org/works/OL6816375W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/134856-L.jpg?default=false",
+    "author": "John E. Hopcroft, Rajeev Motwani & Jeffrey D. Ullman"
+  },
+  "Higher Engineering Mathematics": {
+    "image": "/covers/10306615.jpg",
+    "source": "https://openlibrary.org/works/OL20937686W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/10306615-L.jpg?default=false",
+    "author": "B. S. Grewal"
+  },
+  "Advanced Engineering Mathematics": {
+    "image": "/covers/8575561.jpg",
+    "source": "https://openlibrary.org/works/OL1400344W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/8575561-L.jpg?default=false",
+    "author": "Erwin Kreyszig"
+  },
+  "Discrete Mathematics and Its Applications": {
+    "image": "/covers/7083171.jpg",
+    "source": "https://openlibrary.org/works/OL31821W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/7083171-L.jpg?default=false",
+    "author": "Kenneth H. Rosen"
+  },
+  "Introduction to Linear Algebra": {
+    "image": "/covers/725050.jpg",
+    "source": "https://openlibrary.org/works/OL3285486W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/725050-L.jpg?default=false",
+    "author": "Gilbert Strang"
+  },
+  "Fundamentals of Physics": {
+    "image": "/covers/1246724.jpg",
+    "source": "https://openlibrary.org/works/OL2538490W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/1246724-L.jpg?default=false",
+    "author": "David Halliday, Robert Resnick & Jearl Walker"
+  },
+  "Concepts of Modern Physics": {
+    "image": "/covers/53264.jpg",
+    "source": "https://openlibrary.org/works/OL3481343W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/53264-L.jpg?default=false",
+    "author": "Arthur Beiser"
+  },
+  "Fundamentals of Electric Circuits": {
+    "image": "/covers/4263144.jpg",
+    "source": "https://openlibrary.org/works/OL5850081W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/4263144-L.jpg?default=false",
+    "author": "Charles K. Alexander & Matthew N. O. Sadiku"
+  },
+  "Electronic Devices and Circuit Theory": {
+    "image": "/covers/4383449.jpg",
+    "source": "https://openlibrary.org/works/OL1904074W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/4383449-L.jpg?default=false",
+    "author": "Robert L. Boylestad & Louis Nashelsky"
+  },
+  "Digital Design": {
+    "image": "/covers/83869.jpg",
+    "source": "https://openlibrary.org/works/OL3281307W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/83869-L.jpg?default=false",
+    "author": "M. Morris Mano & Michael D. Ciletti"
+  },
+  "Microelectronic Circuits": {
+    "image": "/covers/8053759.jpg",
+    "source": "https://openlibrary.org/works/OL17770472W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/8053759-L.jpg?default=false",
+    "author": "Adel S. Sedra & Kenneth C. Smith"
+  },
+  "Ethics in Engineering": {
+    "image": "/covers/4277864.jpg",
+    "source": "https://openlibrary.org/works/OL2983383W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/4277864-L.jpg?default=false",
+    "author": "Mike W. Martin & Roland Schinzinger"
+  },
+  "Engineering Ethics: Concepts and Cases": {
+    "image": "/covers/8718425.jpg",
+    "source": "https://openlibrary.org/works/OL19901466W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/8718425-L.jpg?default=false",
+    "author": "Charles E. Harris Jr., Michael S. Pritchard & Michael J. Rabins"
+  },
+  "Technical Communication": {
+    "image": "/covers/1130046.jpg",
+    "source": "https://openlibrary.org/works/OL5859799W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/1130046-L.jpg?default=false",
+    "author": "Meenakshi Raman & Sangeeta Sharma"
+  },
+  "English Grammar in Use": {
+    "image": "/covers/8454904.jpg",
+    "source": "https://openlibrary.org/works/OL19341462W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/8454904-L.jpg?default=false",
+    "author": "Raymond Murphy"
+  },
+  "Object-Oriented Programming with C++": {
+    "image": "/covers/10420384.jpg",
+    "source": "https://openlibrary.org/works/OL9305390W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/10420384-L.jpg?default=false",
+    "author": "E. Balagurusamy"
+  },
+  "The C++ Programming Language": {
+    "image": "/covers/136583.jpg",
+    "source": "https://openlibrary.org/works/OL53184W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/136583-L.jpg?default=false",
+    "author": "Bjarne Stroustrup"
+  },
+  "Engineering Mechanics: Statics": {
+    "image": "/covers/1239449.jpg",
+    "source": "https://openlibrary.org/works/OL28981822W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/1239449-L.jpg?default=false",
+    "author": "J. L. Meriam & L. G. Kraige"
+  },
+  "Introduction to Data Mining with Case Studies": {
+    "image": "/covers/13801448.jpg",
+    "source": "https://openlibrary.org/works/OL27394600W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/13801448-L.jpg?default=false",
+    "author": "G. K. Gupta"
+  },
+  "Introduction to Data Mining": {
+    "image": "/covers/193626.jpg",
+    "source": "https://openlibrary.org/works/OL20999884W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/193626-L.jpg?default=false",
+    "author": "Pang-Ning Tan, Michael Steinbach & Vipin Kumar"
+  },
+  "Change by Design": {
+    "image": "/covers/6305705.jpg",
+    "source": "https://openlibrary.org/works/OL2329685W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/6305705-L.jpg?default=false",
+    "author": "Tim Brown"
+  },
+  "The Design Thinking Toolbox": {
+    "image": "/covers/10189986.jpg",
+    "source": "https://openlibrary.org/works/OL20870469W",
+    "sourceImage": "https://covers.openlibrary.org/b/id/10189986-L.jpg?default=false",
+    "author": "Michael Lewrick, Patrick Link & Larry Leifer"
+  },
+  "Data Communications and Networking": {
+    "image": "/covers/syllabus-9780073376226.jpg",
+    "source": "https://openlibrary.org/isbn/9780073376226",
+    "sourceImage": "https://covers.openlibrary.org/b/isbn/9780073376226-L.jpg?default=false",
+    "author": "Behrouz A. Forouzan"
+  },
+  "Insight into Data Mining: Theory and Practice": {
+    "image": "/covers/syllabus-9788120328976.jpg",
+    "source": "https://www.phindia.com/Books/BookDetail/9788120328976/insight-into-data-mining-soman-diwakar-ajay",
+    "sourceImage": "https://www.phindia.com/images/bookimages/9788120328976.s.jpg",
+    "author": "K. P. Soman, Shyam Diwakar & V. Ajay"
+  },
+  "Data Mining: Concepts and Techniques": {
+    "image": "/covers/syllabus-9780123814791.jpg",
+    "source": "https://www.educate.elsevier.com/book/details/9780123814791",
+    "sourceImage": "https://d16jkos453if22.cloudfront.net/9780123814791.jpg",
+    "author": "Jiawei Han, Micheline Kamber & Jian Pei"
+  },
+  "Learning Continuous Integration with Jenkins": {
+    "image": "/covers/syllabus-9781785284830.jpg",
+    "source": "https://www.oreilly.com/library/view/learning-continuous-integration/9781785284830/",
+    "sourceImage": "https://www.oreilly.com/covers/urn:orm:book:9781785284830/600w/",
+    "author": "Nikhil Pathania"
+  },
+  "Jenkins 2: Up and Running": {
+    "image": "/covers/syllabus-9781491979587.jpg",
+    "source": "https://www.oreilly.com/library/view/jenkins-2-up/9781491979587/",
+    "sourceImage": "https://www.oreilly.com/covers/urn:orm:book:9781491979587/600w/",
+    "author": "Brent Laster"
+  },
+  "Exploring Raspberry Pi": {
+    "image": "/covers/syllabus-9781119188681.jpg",
+    "source": "https://www.exploringrpi.com/",
+    "sourceImage": "https://www.exploringrpi.com/wp-content/uploads/2016/05/Front-Cover-Medium-1.jpg",
+    "author": "Derek Molloy"
+  },
+  "Internet of Things with Raspberry Pi 3": {
+    "image": "/covers/syllabus-9781788627405.jpg",
+    "source": "https://www.packtpub.com/en-CY/product/internet-of-things-with-raspberry-pi-3-9781788627405",
+    "sourceImage": "https://covers.openlibrary.org/b/isbn/9781788627405-L.jpg?default=false",
+    "author": "Maneesh Rao"
+  },
+  "Compiler Construction: Principles and Practice": {
+    "image": "/covers/syllabus-9780534939724.jpg",
+    "source": "https://www.cs.sjsu.edu/~louden/cmptext/",
+    "sourceImage": "https://covers.openlibrary.org/b/isbn/9780534939724-L.jpg?default=false",
+    "author": "Kenneth C. Louden"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "campus-library-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "seed": "node seed/seedDatabase.js",
+    "test": "node --test --test-concurrency=1 tests/*.test.js",
+    "update:curriculum": "node seed/updateCurriculum.js",
+    "catalogue:add": "node seed/addCatalogue.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "node-cron": "^4.2.1"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.2.0",
+    "supertest": "^7.1.1"
+  }
+}
