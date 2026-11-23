@@ -15,6 +15,7 @@ const editable = [
   'topics',
   'tags',
   'coverImage',
+  'pdfUrl',
   'shelfLocation',
   'publisher',
   'edition',

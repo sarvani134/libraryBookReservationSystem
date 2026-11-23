@@ -29,6 +29,22 @@ Open **http://127.0.0.1:5173**. Vite proxies `/api` to port 5000. Do not run `np
 
 On PowerShell installations that block `npm.ps1`, substitute `npm.cmd` for `npm` and `npx.cmd` for `npx`.
 
+## Catalogue and copy counts
+
+The catalogue includes 20 additional subject-related books with ISBNs, authors, editions,
+publishers, publication years, topics, shelf locations, and locally stored cover images.
+Bibliographic and image sources are recorded in `server/data/additionalBooks.json`.
+
+Starting the normal server automatically adds missing titles and increases holdings below
+50 copies to 50, preserving existing reservations and loans. To apply this separately, run
+`npm run catalogue:add -w server`. Repeating the command does not duplicate titles or reset
+borrowed copies; holdings already above 50 are preserved.
+
+Availability is total copies minus reserved and checked-out copies. Reserving takes one
+available copy; collecting transfers it to a checkout without another decrease. Returning,
+cancelling, or expiring a reservation restores one copy exactly once. Demo mode starts with
+50 total copies per title and sample loans (47 copies of Operating System Concepts available).
+
 ## Features
 
 - Responsive, editorial-style homepage, illustrated book covers, subject discovery, and eight semester filters.
@@ -101,6 +117,28 @@ npm run dev
 ```
 
 ### Environment variables
+
+### Atlas connection troubleshooting
+
+If startup reports that Atlas is unreachable, open your Atlas project and go to
+**Security / Network Access → Add IP Address → Add Current IP Address**. Save the
+entry and wait for it to become active. Your public IP can change when switching
+Wi-Fi, using a VPN, or reconnecting your router. For a lasting deployment, use a
+fixed outbound public IP with a permanent access-list entry, or private networking.
+Check that the cluster is running, your database user has access, and your network
+allows outbound MongoDB traffic. Do not use a public `0.0.0.0/0` entry as a permanent fix.
+
+Put your connection string in **server/.env**, not `.env.example`. URL-encode
+special characters in the password and specify your database name. Rotate any
+database password previously shared in source files. The example now defaults to
+the persistent local Docker replica set described above, which avoids Atlas IP
+access-list changes during local development. Do not overwrite an existing `.env`
+unless you intend to switch databases.
+
+Normal server startup retries temporary connection failures with a delay capped
+at 30 seconds and starts the API only after MongoDB connects. Ctrl+C stops retries.
+Invalid configuration and authentication errors still require correction. Retrying
+cannot bypass Atlas access rules or guarantee availability during outages.
 
 `server/.env` (copy from `.env.example`):
 

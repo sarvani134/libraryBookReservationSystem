@@ -76,6 +76,13 @@ export default function BookDetailsPage() {
               <Bookmark fill={bookmarks.includes(b._id) ? 'currentColor' : 'none'} />
             </button>
           </div>
+          {b.availableCopies > 0 && b.pdfUrl && (
+            <p className="pdf-option">
+              <a className="btn btn-outline" href={b.pdfUrl} target="_blank" rel="noreferrer">
+                Read free PDF version
+              </a>
+            </p>
+          )}
           <dl className="book-facts">
             {[
               ['ISBN', b.isbn || 'Not catalogued'],

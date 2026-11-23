@@ -1,6 +1,10 @@
 import { subjects as courses } from './curriculum.js';
 import { subjects } from './bookSubjects.js';
 import { syllabusBooks } from './syllabusBooks.js';
+import { readFileSync } from 'node:fs';
+const additionalBooks = JSON.parse(
+  readFileSync(new URL('./additionalBooks.json', import.meta.url), 'utf8'),
+);
 // Bibliographic titles/authors are real; inventory, shelving and study mappings are demo data.
 // ISBN, publisher, edition and publication year are omitted unless curated and verified.
 const groups = [
@@ -147,7 +151,7 @@ const existingBooks = groups.flatMap((entries, g) =>
     const course = courses.find((item) => item.code === specificCourses[title]);
     if (course) s = { ...s, name: course.name, semester: course.semester };
     const n = index++;
-    const totalCopies = title === 'Operating System Concepts' ? 5 : 3 + (n % 7);
+    const totalCopies = 50;
     return {
       title,
       author,
@@ -187,4 +191,22 @@ export const books = existingBooks
           (book) => book.title === reading.title && book.author === reading.author,
         ),
     ),
+  )
+  .concat(
+    additionalBooks.map(({ subjectIndex, source, sourceImage, ...book }, index) => {
+      const subject = subjects[subjectIndex];
+      return {
+        ...book,
+        subject: subject.name,
+        department: subject.department,
+        semester: subject.semester,
+        tags: [subject.name, ...book.topics],
+        description: `${book.title} by ${book.author} explores ${book.topics.join(', ')}. This ${book.edition} edition supports coursework in ${subject.name}, with practical study material for developing these skills.`,
+        totalCopies: 50,
+        availableCopies: 50,
+        checkedOutCopies: 0,
+        reservedCopies: 0,
+        shelfLocation: `${subject.department.replaceAll(' ', '')}-NEW-${String(index + 1).padStart(2, '0')}`,
+      };
+    }),
   );

@@ -1,5 +1,18 @@
 import { test, expect } from '@playwright/test';
 import { books } from '../server/data/books.js';
+
+test('new subject book displays metadata, 50 copies, and its local cover', async ({ page }) => {
+  await page.goto('/books?q=Fluent%20Python');
+  await page.getByRole('link', { name: 'Fluent Python', exact: true }).click();
+  await expect(page.getByText('50 copies available', { exact: true })).toBeVisible();
+  await expect(page.getByText('9781491946008', { exact: true })).toBeVisible();
+  await expect(page.getByText('1st', { exact: true })).toBeVisible();
+  const cover = page.locator('.detail-cover img');
+  await expect(cover).toHaveAttribute('src', '/covers/9781491946008.jpg');
+  await expect
+    .poll(() => cover.evaluate((img) => img.complete && img.naturalWidth > 100))
+    .toBeTruthy();
+});
 test('desktop homepage, discovery, details and reading list', async ({ page }) => {
   const errors = [];
   page.on('pageerror', (e) => errors.push(e.message));
@@ -18,7 +31,7 @@ test('desktop homepage, discovery, details and reading list', async ({ page }) =
   await expect(
     page.getByRole('heading', { name: 'Operating System Concepts', exact: true }),
   ).toBeVisible();
-  await expect(page.getByText('2 copies available', { exact: true })).toBeVisible();
+  await expect(page.getByText('47 copies available', { exact: true })).toBeVisible();
   await page.getByRole('button', { name: 'Toggle reading list' }).click();
   await page.getByRole('link', { name: 'My reading list', exact: true }).first().click();
   await expect(page.locator('.book-card')).toHaveCount(1);
@@ -37,7 +50,7 @@ test('reservation, collection, custom return warning and return workflow', async
   await dialog.getByRole('button', { name: 'Confirm reservation' }).click();
   await expect(dialog.getByText('A good read, reserved.')).toBeVisible();
   await dialog.getByRole('button', { name: 'Done', exact: true }).click();
-  await expect(page.getByText('Only 1 left')).toBeVisible();
+  await expect(page.getByText('46 available')).toBeVisible();
   await page.getByRole('link', { name: 'Reservations', exact: true }).click();
   await expect(page.locator('.activity-card')).toHaveCount(1);
   await page.getByRole('button', { name: 'Collect & checkout' }).click();
@@ -59,7 +72,7 @@ test('reservation, collection, custom return warning and return workflow', async
   await page.getByRole('dialog').getByRole('button', { name: 'Confirm', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'No books checked out' })).toBeVisible();
   await page.goto('/books?q=Operating%20System%20Concepts');
-  await expect(page.getByText('2 available', { exact: true })).toBeVisible();
+  await expect(page.getByText('47 available', { exact: true })).toBeVisible();
 });
 test('Sara day-14 notification, calendar selection, unavailable book and errors', async ({
   page,
@@ -169,7 +182,7 @@ test('browse full catalogue, reserve and withdraw with updated copy counts', asy
   await expect(card.getByRole('button', { name: 'Reserved', exact: true })).toBeDisabled();
   await page.reload();
   await expect(card.getByRole('button', { name: 'Reserved', exact: true })).toBeDisabled();
-  await expect(card).toContainText('Only 1 left');
+  await expect(card).toContainText('46 available');
   await page.getByRole('link', { name: 'View or withdraw my reservations' }).click();
   await page.getByRole('button', { name: 'Withdraw reservation', exact: true }).click();
   await page.getByRole('dialog').getByRole('button', { name: 'Confirm', exact: true }).click();
@@ -177,7 +190,7 @@ test('browse full catalogue, reserve and withdraw with updated copy counts', asy
   await page.goto('/books?q=Operating%20System%20Concepts');
   await expect(card).toContainText('0 reserved');
   await expect(card.getByRole('button', { name: 'Reserve', exact: true })).toBeEnabled();
-  await expect(card).toContainText('2 available');
+  await expect(card).toContainText('47 available');
 });
 
 test('autocomplete accepts keyboard selection and misspelled searches', async ({ page }) => {

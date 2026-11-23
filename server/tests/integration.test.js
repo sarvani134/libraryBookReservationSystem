@@ -59,7 +59,7 @@ test('adding the catalogue twice preserves existing reservations and stock', asy
   await addCatalogue();
   await addCatalogue();
   assert.equal(await Book.countDocuments(), books.length);
-  await counts(0, 0, 1);
+  await counts(49, 0, 1);
   assert.equal(await Reservation.countDocuments({ bookId: book._id }), 1);
 });
 
@@ -120,6 +120,34 @@ test('reserve decreases inventory, rejects unavailable book', async () => {
   await assert.rejects(() => reserve(input()), { status: 409 });
   await counts(0, 0, 1);
 });
+
+test('50-copy API lifecycle reserves, collects, and returns exactly one copy', async () => {
+  await Book.updateOne({ _id: book._id }, { $set: { totalCopies: 50, availableCopies: 50 } });
+  const reservation = await request(app).post('/api/reservations').send(input()).expect(201);
+  await counts(49, 0, 1);
+  await request(app).patch(`/api/reservations/${reservation.body._id}/collect`).expect(200);
+  await counts(49, 1, 0);
+  const loan = await Checkout.findOne({ bookId: book._id });
+  const results = await Promise.all([
+    request(app).patch(`/api/checkouts/${loan._id}/return`),
+    request(app).patch(`/api/checkouts/${loan._id}/return`),
+  ]);
+  assert.deepEqual(results.map((result) => result.status).sort(), [200, 409]);
+  await counts(50, 0, 0);
+});
+
+test('catalogue top-up preserves loans and reservations and notifies waiting readers', async () => {
+  await Book.updateOne({ _id: book._id }, { $set: { totalCopies: 2, availableCopies: 2 } });
+  await reserve(input());
+  await checkout(input());
+  await Interest.create({ ...input(), status: 'WAITING' });
+  await addCatalogue();
+  await addCatalogue();
+  await counts(48, 1, 1);
+  assert.equal((await Interest.findOne()).status, 'AVAILABLE');
+  assert.equal(await Checkout.countDocuments(), 1);
+  assert.equal(await Reservation.countDocuments(), 1);
+});
 test('concurrent reservations cannot acquire the same last copy', async () => {
   const outcomes = await Promise.allSettled(Array.from({ length: 6 }, () => reserve(input())));
   assert.equal(outcomes.filter((x) => x.status === 'fulfilled').length, 1);
@@ -140,6 +168,13 @@ test('cancel releases once and refuses repeated cancellation', async () => {
   await transitionReservation(r._id, 'CANCELLED');
   await counts(1, 0, 0);
   await assert.rejects(() => transitionReservation(r._id, 'CANCELLED'), { status: 409 });
+});
+
+test('invalid reservation transitions leave stock and the reservation unchanged', async () => {
+  const reservation = await reserve(input());
+  await assert.rejects(() => transitionReservation(reservation._id, 'ACTIVE'), { status: 400 });
+  await counts(0, 0, 1);
+  assert.equal((await Reservation.findById(reservation._id)).status, 'ACTIVE');
 });
 test('collect moves a reserved copy to checkout without increasing availability', async () => {
   const r = await reserve(input());
@@ -266,16 +301,17 @@ test('API validates IDs, required student fields, holidays and unknown routes', 
   await request(app).get('/api/no-such-route').expect(404);
   await counts(1, 0, 0);
 });
-test('seed produces 60–100 books and requested OS demo inventory without duplicating data', async () => {
+test('seed produces the expanded catalogue with 50 copies per title without duplicates', async () => {
   await Book.deleteMany({});
   await seedDatabase();
   const os = await Book.findOne({ title: 'Operating System Concepts' });
   assert.deepEqual(
     [os.totalCopies, os.availableCopies, os.checkedOutCopies, os.reservedCopies],
-    [5, 2, 3, 0],
+    [50, 47, 3, 0],
   );
   const count = await Book.countDocuments();
-  assert.ok(count >= 60 && count <= 100);
+  assert.equal(count, books.length);
+  assert.equal(await Book.countDocuments({ totalCopies: 50 }), count);
   await seedDatabase();
   assert.equal(await Book.countDocuments(), count);
 });

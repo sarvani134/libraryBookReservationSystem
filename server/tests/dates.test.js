@@ -85,8 +85,8 @@ test('recommendations favor subject and overlapping topics', () => {
     ) > recommendationScore(os, books[0]),
   );
 });
-test('seed contains 60–100 unique real textbook titles without invented ISBNs', () => {
-  assert.ok(books.length >= 60 && books.length <= 100);
+test('seed contains unique textbook titles with valid curated ISBNs where provided', () => {
+  assert.ok(books.length >= 100);
   assert.equal(new Set(books.map((b) => b.title)).size, books.length);
-  assert.ok(books.every((b) => !b.isbn));
+  assert.ok(books.every((b) => !b.isbn || /^\d{13}$/.test(b.isbn)));
 });

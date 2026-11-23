@@ -22,6 +22,7 @@ const book = new Schema(
     topics: [String],
     tags: [String],
     coverImage: String,
+    pdfUrl: { type: String, trim: true, maxlength: 2048 },
     totalCopies: { ...count, required: true },
     availableCopies: count,
     checkedOutCopies: count,

@@ -108,8 +108,8 @@ export const syllabusBooks = readings.map(([title, author, codes, topics], index
     tags: [...codes, ...courses.map((course) => course.name), ...topics],
     description: `${supplementary ? 'Supplementary reading aligned with the IoT syllabus; not a prescribed textbook' : 'Textbook or reference selected from the supplied syllabus'} for ${courses.map((course) => course.name).join(' and ')} (III Year, I Semester). Covers ${topics.join(', ')}.`,
     // Inventory and shelving follow the application's demo catalogue convention.
-    totalCopies: 5,
-    availableCopies: 5,
+    totalCopies: 50,
+    availableCopies: 50,
     checkedOutCopies: 0,
     reservedCopies: 0,
     shelfLocation: `CSE-S5-${String(index + 1).padStart(2, '0')}`,

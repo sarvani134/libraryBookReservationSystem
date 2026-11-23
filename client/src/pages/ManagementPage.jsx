@@ -211,6 +211,7 @@ export default function ManagementPage() {
                   />
                   <Field label="Publisher" name="publisher" value={edit.publisher} />
                   <Field label="Cover URL" name="coverImage" value={edit.coverImage} type="url" />
+                  <Field label="Free PDF URL" name="pdfUrl" value={edit.pdfUrl} type="url" />
                   <label className="full">
                     Description
                     <textarea name="description" defaultValue={edit.description} rows={3} />

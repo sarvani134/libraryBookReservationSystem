@@ -43,7 +43,7 @@ export async function seedDatabase() {
       year: 2,
     });
   console.log(
-    `Seeded ${inserted.length} books. Sara: 23CSE001. Operating System Concepts: 2 of 5 available.`,
+    `Seeded ${inserted.length} books with 50 copies each. Sara: 23CSE001. Operating System Concepts: 47 of 50 available.`,
   );
 }
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

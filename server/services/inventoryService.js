@@ -120,6 +120,8 @@ export async function checkout(input, now = new Date()) {
   });
 }
 export async function transitionReservation(id, status, now = new Date()) {
+  if (!['COLLECTED', 'CANCELLED', 'EXPIRED'].includes(status))
+    fail(400, 'Invalid reservation transition.');
   return transact(async (session) => {
     const reservation = await Reservation.findOneAndUpdate(
       {
